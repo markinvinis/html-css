@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: white;
+    font-family: cursive;
+    text-align: center;
+}
+header{
+    background-color: white;
+    color: #4d047e;
+    margin-top: auto;
+    min-height: 150px;
+    padding-top: 30px;
+   ;
+}
+header >h1 {
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 0px black;
+}
+header >p {
+    font-size: 1,2em;
+}
+nav{
+    background-color: yellow;
+    color: #4d047e;
+    min-height: 30px;
+    text-align: left;
+    box-shadow: 0px 0px 20px black;
+}
+nav >a{
+    color: #4d047e;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-weight: bolder;
+    transition-duration: .3;
+}
+nav >a:hover{
+    background-color:rgb(144, 191, 197);
+    
+}
+
+main{
+    min-width: 300px;
+    max-width: 1000px;
+    margin:auto;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color: aqua;
+    color: #4d047e;
+    box-shadow: 0px 0px 20px black;
+}
+main img{
+    width:100%;
+}
+main img.pequena {
+    max-width: 350px;
+    display: block;
+    margin: auto;
+}
+div.video{
+    background-color: white;
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 59%;
+    position: relative;
+
+}
+div.video > iframe{
+    position: absolute;
+    top:5% ;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+ h3{
+    background-color: yellow;
+    padding-top: 5px;
+    box-shadow: 0px 0px 20px black;
+}
+ aside{
+    background-color: white;
+    box-shadow: 0px 0px 20px black;
+}
+aside >ul{
+    list-style-position: inside;
+    columns: 2;
+}
+footer{
+    background-color: yellow;
+    box-shadow: 0px 0px 20px black;
+}
