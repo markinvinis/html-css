@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+header{
+    background-color: black;
+    color: whitesmoke;
+    margin-top: auto;
+    min-height: 100px;
+}
